@@ -15,10 +15,15 @@ This script will create a new directory "packages/" which will contain the insta
 This script will then install the packages to "/bin/" directory of your Linux device .
 
 This Makefile script needs Root privileges !
+
 How to build and install :-
+
 --# make clean install_clean
+
 --# make
+
 --# cd packages
+
 --# sudo make -f ../makefile install verify
 
 Done !
