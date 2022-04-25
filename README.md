@@ -2,7 +2,7 @@
    - by DEVELOPER710
 ____________________
 
-This is the official  TOS-Lite-Edu-Utils Build-and-Install Script !
+This is the official  TOS-Lite-Edu-Utils Install Script !
 
 This is the script to build and install TOS-Edu-Core-Utils on your Linux Device .
 
@@ -16,13 +16,11 @@ This script will then install the packages to "/bin/" directory of your Linux De
 
 This Makefile script needs Root privileges !
 
-How to build and install :-
+How to Install :-
 
 ( After Cloning this repository.... )
 
-----# make clean install_clean
-
-----# make
+----# make clean
 
 ----# cd packages
 
