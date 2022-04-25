@@ -1,8 +1,8 @@
 # TOS-Lite-Edu-Utils
-#    by DEVELOPER710
+   - by DEVELOPER710
 ____________________
 
-This is the official  TOS-Lite-Edu-Utils Build and Install Script !
+This is the official  TOS-Lite-Edu-Utils Build-and-Install Script !
 
 This is the script to build and install TOS-Edu-Core-Utils on your Linux Device
 Its Source Code is in "code/"
