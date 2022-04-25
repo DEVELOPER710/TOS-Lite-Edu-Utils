@@ -1,47 +1,3 @@
-all: math year hello files eng bin_ascii done
-
-math:
-	mkdir -p packages
-	gcc src/add.c -o packages/add
-	gcc src/average.c -o packages/average
-	gcc src/calculator.c -o packages/calculator
-	gcc src/div.c -o packages/div
-	gcc src/even-odd.c -o packages/even-odd
-	gcc src/exponent.c -o packages/exponent
-	gcc src/factors.c -o packages/factors
-	gcc src/greater.c -o packages/greater
-	gcc src/hcf.c -o packages/hcf
-	gcc src/lcm.c -o packages/lcm
-	gcc src/mul.c -o packages/mul
-	gcc src/number-of-digits.c -o packages/number-of-digits
-	gcc src/positive-negative.c -o packages/positive-negative
-	gcc src/prime.c -o packages/prime
-	gcc src/primes-between.c -o packages/primes-between
-	gcc src/sub.c -o packages/sub
-	gcc src/table.c -o packages/table
-
-year:
-	gcc src/leap-year.c -o packages/leap-year
-
-hello:
-	gcc src/hello.c -o packages/hello
-
-files:
-	gcc src/copy.c -o packages/copy
-	gcc src/list.c -o packages/list
-
-eng:
-	gcc src/alphabet.c -o packages/alphabet
-	gcc src/vowel.c -o packages/vowel
-
-bin_ascii:
-	gcc src/ascii.c -o packages/ascii
-	gcc src/dec-bin.c -o packages/dec-bin
-
-done:
-	echo "Done !"
-	echo "Generated TOS-Edu-Core-Utils"
-
 install:
 	cp add /bin/
 	cp alphabet /bin/
@@ -95,9 +51,6 @@ verify:
 	chmod +x /bin/vowel
 
 clean:
-	rm -rf packages
-
-install_clean:
 	rm -rf /bin/add
 	rm -rf /bin/alphabet
 	rm -rf /bin/ascii
