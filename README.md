@@ -12,11 +12,13 @@ All C Files which are going to be installed are in "src/" .
 
 This script will create a new directory "packages/" which will contain the installation files .
 
-This script will then install the packages to "/bin/" directory of your Linux device .
+This script will then install the packages to "/bin/" directory of your Linux Device .
 
 This Makefile script needs Root privileges !
 
 How to build and install :-
+
+( After Cloning this repository.... )
 
 ----# make clean install_clean
 
