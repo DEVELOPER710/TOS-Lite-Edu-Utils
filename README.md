@@ -18,12 +18,10 @@ This Makefile script needs Root privileges !
 
 How to build and install :-
 
---# make clean install_clean
+----# make clean install_clean
 
---# make
+----# make
 
---# cd packages
+----# cd packages
 
---# sudo make -f ../makefile install verify
-
-Done !
+----# sudo make -f ../makefile install verify
