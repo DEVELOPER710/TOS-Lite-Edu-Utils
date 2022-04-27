@@ -4,9 +4,7 @@ ____________________
 
 This is the official  TOS-Lite-Edu-Utils Install Script !
 
-This is the script to build and install TOS-Edu-Core-Utils on your Linux Device .
-
-Its Source Code is in "code/" .
+This is the script to install TOS-Edu-Core-Utils on your Linux Device .
 
 All C Files which are going to be installed are in "src/" .
 
