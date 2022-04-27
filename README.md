@@ -11,8 +11,8 @@ How to Install :-
 
 ( After Cloning this repository.... )
 
----# make clean
+`make clean`
 
----# cd packages
+`cd packages`
 
----# sudo make -f ../makefile install verify
+`sudo make -f ../makefile install verify`
