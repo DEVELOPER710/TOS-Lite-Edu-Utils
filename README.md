@@ -1,3 +1,5 @@
+![Logo](/logo.ico)
+
 # TOS-Lite-Edu-Utils
    - by DEVELOPER710
 
